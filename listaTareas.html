@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>TO-DO LIST</title>
+	<meta charset="utf-8">
+	<style>
+		table, th, td
+		{
+			border: 1px solid #900;
+			padding: 8px 10px;
+			color: 
+		}
+		table > thead > tr > th
+		{
+			vertical-align: bottom;
+			font-size: 1.4cm;
+		}
+		table > tbody > tr
+		{
+			border-bottom: 1px solid #eee;
+		}
+		table > tbody > tr:nth-child(odd)
+		{
+			background: rgba(244,244,244,0.5);
+		}
+		table > tbody > tr:hover
+		{
+			background-color: rgba(0,0,0,0.1);
+		}
+	</style>
+</head>
+<center>
+<body>
+	<table width="50%">
+		<thead bgcolor="#F92ECD">
+			<tr>
+				<th>TO-DO LIST</th>
+			</tr>
+		</thead>
+		<tbody id="myTable">
+		</tbody>
+		<tfoot bgcolor="#F92ECD">
+			<tr>
+				<th>
+					<button style="cursor:pointer" onclick="add()">ADD</button>
+				</th>
+			</tr>
+		</tfoot>
+	</table>
+	<script src="js/listaTareas.js"></script>
+</body>
+</center>
+</html>
