@@ -1,4 +1,4 @@
-/*function add()
+function add()
 {
    var table = document.getElementById("myTable");
    var row = table.insertRow(0);
@@ -6,7 +6,7 @@
    var newText1 = document.getElementById("newText").value;
    cell1.innerHTML = newText1;
    clean();
-}*/
+}
 function clean()
 {
 	document.getElementById("newText").value="";
